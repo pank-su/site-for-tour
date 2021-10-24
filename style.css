@@ -1,0 +1,147 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+#cap {
+    height: 100px;
+    background: rgba(255, 179, 111, 0.55);
+    text-align: left;
+    font: 50px sans-serif;
+    display: flex;
+
+}
+#cap p{
+    margin-top: 20px;
+    align-self: center;
+}
+#content\&menu{
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: auto;
+    text-align: center;
+}
+#menu{
+    background: rgba(62,233,255,0.55);
+}
+#fixed_menu{
+    height: 125px;
+    display: grid;
+}
+button[name="menu-btn"]{
+    background: linear-gradient(45deg, #ff3d47, #FF1E78);
+    height: 25px;
+    width: 100%;
+    color: #fffca2;
+    border: solid 1px #a7a7a7;
+    border-radius: 20px;
+    font: 12px "arial";
+}
+button[name="menu-btn selected"]{
+    background: linear-gradient(45deg, #dc29e3, #ab0752);
+    height: 25px;
+    width: 100%;
+    color: #fffca2;
+    border: solid 1px #a7a7a7;
+    border-radius: 20px;
+    font: 12px "arial";
+}
+#content{
+    background: rgb(194, 194, 194);
+    text-align: left;
+    font-family: Calibri, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 0;
+}
+h1{
+    color: #ffcd5d;
+    font-style: italic;
+}
+h2{
+    color: #534fff;
+    text-decoration: underline;
+}
+h3{
+    color: #ffad57;
+    text-decoration: line-through;
+}
+h4{
+    color: #7aff6b;
+}
+h5{
+    color: #ab61ff;
+}
+#form{
+    display: grid;
+    width: 150px;
+    margin: auto;
+}
+
+input{
+    border: black solid 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+input::placeholder{
+    font: 14px Calibri;
+}
+textarea::placeholder{
+    font: 14px Calibri;
+}
+textarea{
+    border: black solid 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+#submit{
+    width: 80px;
+    margin: auto;
+    text-align: center;
+}
+#super{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 225px;
+}
+#footer{
+    position: relative;
+    height: 70px;
+    text-align: center;
+    vertical-align: text-top;
+    background: rgba(254,255,81,0.57);
+    display: flex;
+}
+footer{
+    flex: auto;
+    align-self: flex-end;
+}
+
+table{
+    margin: 2px;
+    width: 746px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.blue{
+     background: #c0e7ff;
+}
+.grey{
+    background: #dcdcdc;
+}
+.white{
+    background: white;
+}
+.green{
+    background: #b7ffb8;
+}
+.orange{
+    background: #ffd887;
+}
+
